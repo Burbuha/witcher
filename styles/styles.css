@@ -63,6 +63,7 @@ body {
   margin-bottom: 16px;
   font-size: 14px;
   line-height: 16px;
+  animation-delay: 0.1s;
 }
 .rating {
   display: flex;
@@ -73,6 +74,7 @@ body {
   font-size: 12px;
   line-height: 14px;
   margin-left: 9px;
+  animation-delay: 0.3s;
 }
 .main-title {
   font-family: "MasonChronicles", serif;
@@ -81,12 +83,14 @@ body {
   font-size: 76px;
   margin: 0;
   margin-bottom: 10px;
+  animation-delay: 0.5s;
 }
 .main-description {
   max-width: 458px;
   margin-bottom: 40px;
   font-size: 14px;
   line-height: 150%;
+  animation-delay: 0.8s;
 }
 .button {
   padding: 22px 72px;
@@ -94,12 +98,13 @@ body {
   border: none;
   border-radius: 8px;
   color: #fff;
-}
-.btn {
   text-decoration: none;
-  color: #fff;
+  animation-delay: 1s;
 }
 .play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   width: 100px;
   height: 100px;
@@ -118,6 +123,7 @@ body {
   border-radius: 50%;
   background: #9d2929;
   opacity: 0.5;
+  animation: pulse 0.5s ease-in-out 2s infinite;
 }
 .play-img {
   position: relative;
@@ -275,6 +281,7 @@ body {
     background-color: #fff;
     border: none;
     cursor: pointer;
+    outline: none;
   }
   .menu-btn:before {
     content: "";
